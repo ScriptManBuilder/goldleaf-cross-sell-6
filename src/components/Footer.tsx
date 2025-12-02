@@ -18,11 +18,12 @@ import {
 } from '../styles/Footer.styles';
 
 const Footer: React.FC = () => {
-  const brandName = process.env.REACT_APP_BRAND_NAME || 'Payverix';
+  const brandName = process.env.REACT_APP_BRAND_NAME;
   const companyName = process.env.REACT_APP_COMPANY_NAME || 'Goldleaf Goods LLC';
   const companyAddress = process.env.REACT_APP_COMPANY_ADDRESS || 'E 2ND ST 5830 Casper WY US 82609';
   const companyPhone = process.env.REACT_APP_PHONE_DISPLAY || '+1 517-258-3818';
   const supportEmail = process.env.REACT_APP_EMAIL_SUPPORT || 'support@goldleafrevenuerecovery.com';
+  const companyBirth = process.env.REACT_APP_COMPANY_BIRTH || 'May 2025';
 
   const handleScrollTo = (id: string) => {
     // Check if we're on the home page
@@ -51,7 +52,7 @@ const Footer: React.FC = () => {
             <CompanyInfo>
               <p>{companyName}</p>
               <p>{companyAddress}</p>
-              <p>Established March 2023</p>
+              <p>Established {companyBirth}</p>
             </CompanyInfo>
           </FooterSection>
 
