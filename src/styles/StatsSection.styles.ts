@@ -127,6 +127,9 @@ export const StatCard = styled.div<{ $background: string }>`
   position: relative;
   overflow: hidden;
   backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
 
   &::before {
     content: '';
@@ -173,10 +176,12 @@ export const StatCard = styled.div<{ $background: string }>`
   @media (max-width: 768px) {
     padding: 2rem;
     border-radius: 12px;
+    min-height: 280px;
   }
 
   @media (max-width: 425px) {
     padding: 1.75rem;
+    min-height: 260px;
 
     &:hover {
       transform: translateY(-4px);
@@ -185,10 +190,12 @@ export const StatCard = styled.div<{ $background: string }>`
 
   @media (max-width: 375px) {
     padding: 1.5rem;
+    min-height: 240px;
   }
 
   @media (max-width: 320px) {
     padding: 1.25rem;
+    min-height: 220px;
   }
 `;
 
@@ -199,6 +206,19 @@ export const StatTitle = styled.h3`
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: -0.01em;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    min-height: 45px;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 425px) {
+    min-height: 40px;
+    font-size: 1.05rem;
+  }
 `;
 
 export const StatDescription = styled.p`
@@ -207,15 +227,28 @@ export const StatDescription = styled.p`
   margin-top: 0.5rem;
   opacity: 0.7;
   line-height: 1.6;
+  flex: 1;
+  min-height: 100px;
+
+  @media (max-width: 768px) {
+    min-height: 90px;
+    font-size: 0.875rem;
+  }
+
+  @media (max-width: 425px) {
+    min-height: 80px;
+    font-size: 0.85rem;
+  }
 `;
 
 export const StatValue = styled.div`
   font-size: 3.5rem;
   font-weight: 700;
-  margin-top: 1rem;
+  margin-top: auto;
   letter-spacing: -0.02em;
   position: relative;
   display: inline-block;
+  align-self: flex-start;
   
   &::after {
     content: '';
