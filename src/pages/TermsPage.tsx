@@ -28,7 +28,7 @@ const TermsPage: React.FC = () => {
             <LegalParagraph>
               These Terms and Conditions ("Terms") constitute a legally binding agreement between you and {process.env.REACT_APP_COMPANY_NAME} 
               ("Company," "we," "us," or "our") concerning your access to and use of our services, including our website and 
-              payment recovery solutions.
+              VIP membership program with exclusive perks and benefits.
             </LegalParagraph>
             <LegalParagraph>
               By accessing or using our services, you agree that you have read, understood, and agree to be bound by these Terms. 
@@ -39,15 +39,15 @@ const TermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Services Description</LegalSectionTitle>
             <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_NAME} provides payment recovery and revenue optimization services designed to help 
-              businesses recover failed transactions and reduce payment abandonment. Our services include:
+              {process.env.REACT_APP_COMPANY_NAME} provides a premium VIP membership program designed to deliver 
+              exclusive discounts, perks, and lifestyle benefits to our members. Our services include:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Automated payment retry logic and failed transaction recovery</LegalListItem>
-              <LegalListItem>Customer communication and payment reminder systems</LegalListItem>
-              <LegalListItem>Analytics and reporting on payment performance</LegalListItem>
-              <LegalListItem>Integration with e-commerce platforms and payment processors</LegalListItem>
-              <LegalListItem>Consultation and support services</LegalListItem>
+              <LegalListItem>Access to exclusive discounts across thousands of partner brands</LegalListItem>
+              <LegalListItem>VIP rewards program with points and cashback benefits</LegalListItem>
+              <LegalListItem>Premium lifestyle concierge services and assistance</LegalListItem>
+              <LegalListItem>Early access to sales, events, and limited-time offers</LegalListItem>
+              <LegalListItem>Member-only experiences and exclusive content</LegalListItem>
             </LegalList>
           </LegalSection>
 
@@ -72,14 +72,14 @@ const TermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Payment Terms</LegalSectionTitle>
             <LegalParagraph>
-              Our services are provided on a subscription or commission basis, as detailed in your service agreement. 
+              Our VIP membership is provided on a subscription basis at $9.99 per month or $99 per year. 
               Payment terms include:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Fees are charged according to your selected plan or agreement</LegalListItem>
+              <LegalListItem>Membership fees are charged according to your selected plan (monthly or annual)</LegalListItem>
               <LegalListItem>Payments are processed through secure third-party payment processors</LegalListItem>
               <LegalListItem>Subscription fees are billed in advance on a recurring basis</LegalListItem>
-              <LegalListItem>Commission-based fees are calculated based on successfully recovered transactions</LegalListItem>
+              <LegalListItem>Annual memberships receive a 17% discount compared to monthly billing</LegalListItem>
               <LegalListItem>All fees are non-refundable except as required by law or stated in our Refund Policy</LegalListItem>
             </LegalList>
           </LegalSection>

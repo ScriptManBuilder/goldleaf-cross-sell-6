@@ -28,8 +28,8 @@ const CTASection: React.FC = () => {
           <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
         </svg>
       ),
-      title: 'Proven ROI',
-      description: 'Typical 15-30% recapture rate on declined payments delivering quantifiable revenue gains'
+      title: 'Proven Savings',
+      description: 'Members save an average of $850 annually with exclusive discounts and VIP perks'
     },
     {
       icon: (
@@ -37,8 +37,8 @@ const CTASection: React.FC = () => {
           <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
         </svg>
       ),
-      title: 'Rapid Setup',
-      description: 'Fully operational in 24 hours or less with seamless connections to popular payment gateways'
+      title: 'Instant Access',
+      description: 'Start enjoying benefits immediately with instant digital membership card and mobile app'
     },
     {
       icon: (
@@ -46,19 +46,19 @@ const CTASection: React.FC = () => {
           <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
         </svg>
       ),
-      title: 'Bank-Grade Security',
-      description: 'PCI DSS Level 1 certified with SOC 2 compliance and end-to-end encryption'
+      title: 'Satisfaction Guaranteed',
+      description: '30-day money-back guarantee if you\'re not completely satisfied with your membership'
     }
   ];
 
   return (
     <CTAContainer id="how-it-works">
       <CTAContent>
-        <CTATitle>Start Recovering Lost Revenue Today</CTATitle>
+        <CTATitle>Start Saving with VIP Membership Today</CTATitle>
         <CTADescription>
-          Partner with top-performing companies leveraging our system to reclaim declined payments and boost profitability.
+          Join thousands of members already enjoying exclusive discounts, premium perks, and lifestyle benefits across shopping, dining, travel, and entertainment.
         </CTADescription>
-        <CTASectionButton onClick={handleGetStarted}>Get Started Now →</CTASectionButton>
+        <CTASectionButton onClick={handleGetStarted}>Join Now →</CTASectionButton>
         
         <CTAFeaturesGrid>
           {features.map((feature, index) => (

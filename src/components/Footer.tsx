@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
   const companyName = process.env.REACT_APP_COMPANY_NAME || 'Goldleaf Goods LLC';
   const companyAddress = process.env.REACT_APP_COMPANY_ADDRESS || 'E 2ND ST 5830 Casper WY US 82609';
   const companyPhone = process.env.REACT_APP_PHONE_DISPLAY || '+1 517-258-3818';
-  const supportEmail = process.env.REACT_APP_EMAIL_SUPPORT || 'support@goldleafrevenuerecovery.com';
+  const supportEmail = process.env.REACT_APP_EMAIL_SUPPORT || 'support@goldleafvipperks.com';
   const companyBirth = process.env.REACT_APP_COMPANY_BIRTH || 'May 2025';
 
   const handleScrollTo = (id: string) => {

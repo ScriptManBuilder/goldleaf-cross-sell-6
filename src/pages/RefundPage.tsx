@@ -26,7 +26,7 @@ const RefundPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Our Commitment to Customer Satisfaction</LegalSectionTitle>
             <LegalParagraph>
-              At {process.env.REACT_APP_COMPANY_NAME}, we are committed to providing high-quality payment recovery services. 
+              At {process.env.REACT_APP_COMPANY_NAME}, we are committed to providing high-quality VIP membership services. 
               This Refund Policy outlines the circumstances under which refunds may be issued and the process for requesting a refund.
             </LegalParagraph>
             <LegalParagraph>
@@ -37,45 +37,45 @@ const RefundPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Subscription Services</LegalSectionTitle>
             <LegalParagraph>
-              For subscription-based services, the following refund terms apply:
+              For VIP membership subscriptions, the following refund terms apply:
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Free Trial Period:</strong> If you cancel during your free trial period, no charges will be applied. 
-                You must cancel before the trial ends to avoid being charged.
+                <strong>30-Day Money Back Guarantee:</strong> If you are not satisfied with your membership within the first 30 days, 
+                you may request a full refund. After 30 days, refunds are subject to the terms below.
               </LegalListItem>
               <LegalListItem>
-                <strong>Monthly Subscriptions:</strong> Monthly subscription fees are non-refundable once paid. You may cancel 
-                your subscription at any time, and cancellation will take effect at the end of your current billing period.
+                <strong>Monthly Memberships:</strong> Monthly membership fees are non-refundable once paid. You may cancel 
+                your membership at any time, and cancellation will take effect at the end of your current billing period.
               </LegalListItem>
               <LegalListItem>
-                <strong>Annual Subscriptions:</strong> Annual subscription fees may be eligible for a prorated refund if canceled 
+                <strong>Annual Memberships:</strong> Annual membership fees may be eligible for a prorated refund if canceled 
                 within the first 30 days. After 30 days, annual fees are non-refundable.
               </LegalListItem>
               <LegalListItem>
-                <strong>Mid-Cycle Cancellations:</strong> If you cancel mid-cycle, you will retain access to the service until 
+                <strong>Mid-Cycle Cancellations:</strong> If you cancel mid-cycle, you will retain access to all membership benefits until 
                 the end of your current billing period. No refunds are provided for unused time.
               </LegalListItem>
             </LegalList>
           </LegalSection>
 
           <LegalSection>
-            <LegalSectionTitle>Commission-Based Services</LegalSectionTitle>
+            <LegalSectionTitle>Non-Refundable Items</LegalSectionTitle>
             <LegalParagraph>
-              For commission-based payment recovery services:
+              The following are not eligible for refunds:
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Performance-Based Fees:</strong> Commission fees are charged only on successfully recovered transactions. 
-                No refunds are provided for commission fees on completed recoveries.
+                <strong>Used Benefits:</strong> Discounts, rewards, or perks that have already been redeemed or used 
+                during your membership period are not refundable.
               </LegalListItem>
               <LegalListItem>
-                <strong>Setup Fees:</strong> One-time setup or onboarding fees are non-refundable once services have been 
-                activated and integration has been completed.
+                <strong>Partial Months:</strong> Membership fees are not prorated for partial months of service 
+                after the initial 30-day guarantee period.
               </LegalListItem>
               <LegalListItem>
-                <strong>Disputed Transactions:</strong> If a recovered transaction is later disputed or reversed, we will 
-                work with you to resolve the issue, but commission fees are generally non-refundable.
+                <strong>Third-Party Purchases:</strong> Purchases made through partner brands using member discounts 
+                are subject to those retailers\' individual refund policies, not ours.
               </LegalListItem>
             </LegalList>
           </LegalSection>
@@ -110,18 +110,17 @@ const RefundPage: React.FC = () => {
           </LegalSection>
 
           <LegalSection>
-            <LegalSectionTitle>Non-Refundable Items and Services</LegalSectionTitle>
+            <LegalSectionTitle>Additional Non-Refundable Scenarios</LegalSectionTitle>
             <LegalParagraph>
               The following are not eligible for refunds under any circumstances:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Completed payment recovery services and successfully recovered transactions</LegalListItem>
-              <LegalListItem>Custom integration or development work that has been completed</LegalListItem>
-              <LegalListItem>Consultation services that have been delivered</LegalListItem>
-              <LegalListItem>Access to historical data, reports, or analytics</LegalListItem>
-              <LegalListItem>Third-party services or fees (payment processor fees, gateway fees, etc.)</LegalListItem>
+              <LegalListItem>Rewards points or cashback that have been earned and redeemed</LegalListItem>
+              <LegalListItem>Access to exclusive events or experiences that have already occurred</LegalListItem>
+              <LegalListItem>Member-only content or materials that have been accessed or downloaded</LegalListItem>
               <LegalListItem>Services terminated due to violation of our Terms of Service</LegalListItem>
-              <LegalListItem>Subscription fees for periods already consumed</LegalListItem>
+              <LegalListItem>Membership fees for periods after benefits have been actively used</LegalListItem>
+              <LegalListItem>Administrative or processing fees charged by third-party payment providers</LegalListItem>
             </LegalList>
           </LegalSection>
 

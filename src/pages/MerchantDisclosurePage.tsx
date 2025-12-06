@@ -27,7 +27,7 @@ const MerchantDisclosurePage: React.FC = () => {
             <LegalSectionTitle>Merchant Information</LegalSectionTitle>
             <LegalParagraph>
               This disclosure provides important information about {process.env.REACT_APP_COMPANY_NAME}, the merchant 
-              providing payment recovery services. This information is provided in compliance with consumer protection 
+              providing VIP membership services with exclusive perks and discounts. This information is provided in compliance with consumer protection 
               laws and payment card industry regulations.
             </LegalParagraph>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1.5rem' }}>
@@ -65,29 +65,29 @@ const MerchantDisclosurePage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Nature of Business</LegalSectionTitle>
             <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_NAME} is a payment recovery service provider that operates on behalf of 
-              e-commerce merchants and online businesses. Our services include:
+              {process.env.REACT_APP_COMPANY_NAME} is a premium VIP membership service provider that delivers 
+              exclusive discounts, perks, and lifestyle benefits to our members. Our services include:
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Failed Payment Recovery:</strong> Automated retry and recovery of declined or failed payment transactions
+                <strong>Exclusive Discounts:</strong> Access to member-only pricing across thousands of partner brands
               </LegalListItem>
               <LegalListItem>
-                <strong>Customer Communication:</strong> Email and SMS notifications to customers regarding payment issues
+                <strong>VIP Rewards Program:</strong> Earn points, cashback, and special rewards on purchases and engagement
               </LegalListItem>
               <LegalListItem>
-                <strong>Payment Processing:</strong> Secure processing of credit card, debit card, and other payment methods
+                <strong>Lifestyle Concierge:</strong> Personalized assistance with bookings, reservations, and special requests
               </LegalListItem>
               <LegalListItem>
-                <strong>Account Management:</strong> Tools for customers to update payment information and manage subscriptions
+                <strong>Member-Only Experiences:</strong> Early access to sales, exclusive events, and premium content
               </LegalListItem>
               <LegalListItem>
-                <strong>Analytics and Reporting:</strong> Data insights for merchants regarding payment recovery performance
+                <strong>Premium Benefits:</strong> Travel perks, entertainment offers, dining rewards, and more
               </LegalListItem>
             </LegalList>
             <LegalParagraph style={{ marginTop: '1rem' }}>
-              We act as a payment service provider and merchant of record for transactions processed through our platform. 
-              Established in {process.env.REACT_APP_COMPANY_BIRTH}, we serve e-commerce businesses across various industries.
+              We operate as a membership service provider connecting members with exclusive benefits and partner offers. 
+              Established in {process.env.REACT_APP_COMPANY_BIRTH}, we serve lifestyle-focused consumers seeking premium value and experiences.
             </LegalParagraph>
           </LegalSection>
 
@@ -137,7 +137,7 @@ const MerchantDisclosurePage: React.FC = () => {
                 <strong>Authorization Holds:</strong> A temporary authorization hold may appear before the final charge is processed
               </LegalListItem>
               <LegalListItem>
-                <strong>Failed Transactions:</strong> If a transaction fails, you will be notified and given an opportunity 
+                <strong>Declined Transactions:</strong> If a membership payment is declined, you will be notified and given an opportunity 
                 to update payment information
               </LegalListItem>
             </LegalList>
@@ -228,11 +228,10 @@ const MerchantDisclosurePage: React.FC = () => {
                 <strong>Subscription Fees:</strong> Monthly or annual subscription fees are charged to merchants, not end-users
               </LegalListItem>
               <LegalListItem>
-                <strong>Commission Fees:</strong> We may charge merchants a commission on successfully recovered transactions
+                <strong>Partner Commissions:</strong> We may earn commissions from partner brands when members use exclusive discounts
               </LegalListItem>
               <LegalListItem>
-                <strong>No Hidden Fees:</strong> We do not charge end-users additional fees for payment processing beyond 
-                the original transaction amount
+                <strong>No Hidden Fees:</strong> We do not charge members additional fees beyond the stated membership price
               </LegalListItem>
               <LegalListItem>
                 <strong>Currency Conversion:</strong> If applicable, currency conversion fees are disclosed before transaction completion
@@ -380,12 +379,12 @@ const MerchantDisclosurePage: React.FC = () => {
                 by contacting customer service
               </LegalListItem>
               <LegalListItem>
-                <strong>Refund for Canceled Subscriptions:</strong> No refunds are provided for the remainder of the current 
-                billing period after cancellation
+                <strong>Refund for Canceled Memberships:</strong> No refunds are provided for the remainder of the current 
+                billing period after cancellation, except during the 30-day satisfaction guarantee period
               </LegalListItem>
               <LegalListItem>
-                <strong>Failed Recurring Payments:</strong> If a recurring payment fails, we will notify you and attempt to 
-                retry the charge with updated payment information
+                <strong>Recurring Membership Payments:</strong> If a recurring membership payment is declined, we will notify you and provide an opportunity to 
+                update payment information to maintain access to benefits
               </LegalListItem>
             </LegalList>
           </LegalSection>

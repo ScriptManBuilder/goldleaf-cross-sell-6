@@ -28,7 +28,7 @@ const PrivacyPage: React.FC = () => {
             <LegalParagraph>
               {process.env.REACT_APP_COMPANY_NAME} ("we," "us," or "our") is committed to protecting your privacy. 
               This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use 
-              our payment recovery services and visit our website.
+              our VIP membership services and visit our website.
             </LegalParagraph>
             <LegalParagraph>
               By using our services, you consent to the data practices described in this policy. If you do not agree 
@@ -53,12 +53,12 @@ const PrivacyPage: React.FC = () => {
             </LegalList>
 
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1.5rem' }}>
-              Customer Data
+              Membership Data
             </LegalParagraph>
             <LegalList>
-              <LegalListItem><strong>Transaction Data:</strong> Payment attempts, success/failure status, transaction amounts</LegalListItem>
-              <LegalListItem><strong>Customer Information:</strong> Names, email addresses, payment details of your customers</LegalListItem>
-              <LegalListItem><strong>Communication Records:</strong> Email correspondence, support tickets, payment notifications</LegalListItem>
+              <LegalListItem><strong>Usage Data:</strong> Perks redeemed, discounts used, rewards earned, engagement with benefits</LegalListItem>
+              <LegalListItem><strong>Preference Information:</strong> Favorite brands, interests, lifestyle categories, saved offers</LegalListItem>
+              <LegalListItem><strong>Communication Records:</strong> Email correspondence, support tickets, feedback submissions</LegalListItem>
             </LegalList>
 
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1.5rem' }}>
@@ -77,10 +77,11 @@ const PrivacyPage: React.FC = () => {
               We use the collected information for various purposes:
             </LegalParagraph>
             <LegalList>
-              <LegalListItem><strong>Service Delivery:</strong> Process transactions, recover failed payments, send payment reminders</LegalListItem>
+              <LegalListItem><strong>Service Delivery:</strong> Provide access to discounts, perks, and member benefits</LegalListItem>
               <LegalListItem><strong>Account Management:</strong> Create and maintain your account, authenticate users, provide support</LegalListItem>
-              <LegalListItem><strong>Communication:</strong> Send service updates, transaction notifications, marketing communications</LegalListItem>
-              <LegalListItem><strong>Analytics:</strong> Analyze usage patterns, improve service performance, develop new features</LegalListItem>
+              <LegalListItem><strong>Communication:</strong> Send benefit updates, exclusive offers, personalized recommendations</LegalListItem>
+              <LegalListItem><strong>Personalization:</strong> Tailor perks and offers based on your preferences and interests</LegalListItem>
+              <LegalListItem><strong>Analytics:</strong> Analyze usage patterns, improve service performance, develop new benefits</LegalListItem>
               <LegalListItem><strong>Compliance:</strong> Comply with legal obligations, prevent fraud, enforce our terms</LegalListItem>
               <LegalListItem><strong>Marketing:</strong> Send promotional materials, personalize content, conduct market research</LegalListItem>
             </LegalList>

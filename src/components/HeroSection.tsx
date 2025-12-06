@@ -12,7 +12,7 @@ import {
 } from '../styles/HeroSection.styles';
 
 const HeroSection: React.FC = () => {
-  const appSubdomain = process.env.REACT_APP_APP_SUBDOMAIN || 'app.goldleafrevenuerecovery.com';
+  const appSubdomain = process.env.REACT_APP_APP_SUBDOMAIN || 'app.goldleafvipperks.com';
 
   const handleLaunchApp = () => {
     // Temporarily disabled - demo site under construction
@@ -29,15 +29,15 @@ const HeroSection: React.FC = () => {
   return (
     <HeroContainer>
       <HeroContent>
-        <Tagline>Trusted by Leading Brands</Tagline>
+        <Tagline>Exclusive Benefits for Members</Tagline>
         <HeroTitle>
-          Recover Failed Payments.
-          <Highlight>Rescue Lost Revenue.</Highlight>
+          Unlock Premium Perks.
+          <Highlight>Save More Every Day.</Highlight>
         </HeroTitle>
         <HeroDescription>
-          Turn payment failures into revenue wins with our cutting-edge recovery automation. 
-          Powered by intelligent retry strategies, predictive analytics, and behavioral insights, we enable online 
-          merchants to recapture up to 30% of declined transactions without disrupting the customer journey.
+          Access exclusive discounts, VIP benefits, and lifestyle rewards with our premium membership program. 
+          Enjoy savings on shopping, dining, travel, and entertainment while experiencing personalized service 
+          designed to elevate your everyday lifestyle.
         </HeroDescription>
         <CTAButtonGroup>
           <CTAButtonPrimary onClick={handleLaunchApp}>

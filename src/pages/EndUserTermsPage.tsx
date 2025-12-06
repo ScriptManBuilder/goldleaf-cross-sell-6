@@ -27,11 +27,10 @@ const EndUserTermsPage: React.FC = () => {
             <LegalSectionTitle>1. Acceptance of Terms</LegalSectionTitle>
             <LegalParagraph>
               These End-User Terms of Service ("End-User Terms") govern your use of services provided by 
-              {process.env.REACT_APP_COMPANY_NAME} when you interact with our payment recovery platform as an end-user 
-              or customer of our merchant clients.
+              {process.env.REACT_APP_COMPANY_NAME} when you access our VIP membership platform with exclusive perks and benefits.
             </LegalParagraph>
             <LegalParagraph>
-              By completing a transaction, making a payment, or interacting with our payment recovery communications, 
+              By signing up for membership, accessing benefits, or using our platform, 
               you acknowledge that you have read, understood, and agree to be bound by these End-User Terms.
             </LegalParagraph>
             <LegalParagraph>
@@ -42,30 +41,29 @@ const EndUserTermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>2. Service Description</LegalSectionTitle>
             <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_NAME} provides payment recovery services on behalf of merchant clients. 
+              {process.env.REACT_APP_COMPANY_NAME} provides premium VIP membership services with exclusive benefits. 
               Our services include:
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Payment Retry Services:</strong> Automated retry of declined payment transactions using updated 
-                payment information
+                <strong>Exclusive Discounts:</strong> Access to member-only pricing and special offers across partner brands
               </LegalListItem>
               <LegalListItem>
-                <strong>Payment Reminders:</strong> Email and SMS notifications reminding you of pending or failed payments
+                <strong>Member Communications:</strong> Email and notifications about new perks, special offers, and benefits
               </LegalListItem>
               <LegalListItem>
-                <strong>Account Recovery Links:</strong> Secure links allowing you to update payment information or complete purchases
+                <strong>VIP Portal Access:</strong> Secure member dashboard to view and redeem your benefits
               </LegalListItem>
               <LegalListItem>
-                <strong>Customer Support:</strong> Assistance with payment issues, account questions, and transaction inquiries
+                <strong>Concierge Support:</strong> Assistance with bookings, reservations, and special requests
               </LegalListItem>
               <LegalListItem>
-                <strong>Secure Payment Processing:</strong> PCI-compliant payment processing infrastructure
+                <strong>Rewards Program:</strong> Earn points, cashback, and exclusive rewards on engagement
               </LegalListItem>
             </LegalList>
             <LegalParagraph style={{ marginTop: '1rem' }}>
-              We act as a service provider to merchants and process payments on their behalf. The underlying transaction 
-              is between you and the merchant.
+              We provide membership services and coordinate with partner brands to deliver exclusive benefits. 
+              Purchases from partner brands are subject to their individual terms and conditions.
             </LegalParagraph>
           </LegalSection>
 
@@ -93,8 +91,8 @@ const EndUserTermsPage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Authorization:</strong> You authorize us to process payment on behalf of the merchant for the amount 
-                specified in the transaction
+                <strong>Authorization:</strong> You authorize us to process membership payments for the amount 
+                specified in your selected plan
               </LegalListItem>
               <LegalListItem>
                 <strong>Accuracy:</strong> You warrant that all payment information provided (card number, expiration date, 
@@ -105,8 +103,8 @@ const EndUserTermsPage: React.FC = () => {
                 sufficient funds or credit available
               </LegalListItem>
               <LegalListItem>
-                <strong>Retry Authorization:</strong> By providing updated payment information, you authorize retry attempts 
-                for previously declined transactions
+                <strong>Recurring Billing:</strong> By subscribing, you authorize automatic recurring charges to your payment method 
+                according to your membership billing cycle
               </LegalListItem>
               <LegalListItem>
                 <strong>Third-Party Processors:</strong> Payments are processed through third-party payment processors 
@@ -148,10 +146,10 @@ const EndUserTermsPage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Transactional Communications:</strong> Payment receipts, transaction confirmations, and account notifications
+                <strong>Membership Communications:</strong> Benefit updates, new offers, and account notifications
               </LegalListItem>
               <LegalListItem>
-                <strong>Payment Reminders:</strong> Email and SMS reminders about pending, failed, or upcoming payments
+                <strong>Exclusive Offers:</strong> Email notifications about member-only deals, perks, and special promotions
               </LegalListItem>
               <LegalListItem>
                 <strong>Customer Support:</strong> Responses to inquiries and support requests
@@ -162,7 +160,7 @@ const EndUserTermsPage: React.FC = () => {
             </LegalList>
             <LegalParagraph style={{ marginTop: '1rem' }}>
               To opt out of non-essential communications, click "unsubscribe" in emails or reply STOP to SMS messages. 
-              Note that you cannot opt out of transactional communications required to provide services.
+              Note that you cannot opt out of transactional communications required to provide membership services.
             </LegalParagraph>
           </LegalSection>
 

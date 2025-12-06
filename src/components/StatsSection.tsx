@@ -14,27 +14,27 @@ import {
 const StatsSection: React.FC = () => {
   const stats = [
     {
-      title: 'Payment Failure Rate',
-      description: 'Unsuccessful payments drain merchant profits yearly—the majority can be salvaged with proper tools and strategy',
-      value: '18%',
+      title: 'Average Member Savings',
+      description: 'Members save hundreds annually through exclusive discounts on shopping, dining, travel, and entertainment experiences',
+      value: '$850',
       background: 'linear-gradient(135deg, #0066cc 0%, #3388dd 100%)'
     },
     {
-      title: 'Global Revenue Loss',
-      description: 'Online retailers forfeit half a trillion dollars in retrievable income annually due to payment transaction failures',
-      value: '$460B',
+      title: 'Partner Brands',
+      description: 'Access exclusive deals from thousands of premium brands and retailers across all major lifestyle categories worldwide',
+      value: '5,000+',
       background: 'linear-gradient(135deg, #3388dd 0%, #0066cc 100%)'
     },
     {
-      title: 'Lost Customer Rate',
-      description: 'Over two-thirds of buyers abandon merchants permanently following a single declined transaction—speed matters most',
-      value: '71%',
+      title: 'Member Satisfaction',
+      description: 'Our members consistently rate their experience as excellent, enjoying premium perks and personalized service daily',
+      value: '96%',
       background: 'linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%)'
     },
     {
-      title: 'Average Recovery Rate',
-      description: 'Our smart retry technology successfully reclaims close to one-third of unsuccessful payments without human input',
-      value: '30%',
+      title: 'Exclusive Offers',
+      description: 'New deals added weekly across dining, shopping, travel and entertainment ensuring fresh savings opportunities always',
+      value: '200+',
       background: 'linear-gradient(135deg, #00d4aa 0%, #00bfa5 100%)'
     }
   ];
@@ -42,9 +42,9 @@ const StatsSection: React.FC = () => {
   return (
     <StatsContainer id="stats">
       <StatsContent>
-        <StatsSectionTitle>The Cost of Doing Nothing</StatsSectionTitle>
+        <StatsSectionTitle>Member Savings & Benefits</StatsSectionTitle>
         <StatsSectionDescription>
-          Each payment decline equals missed opportunity. Discover how our solution transforms transaction failures into revenue growth.
+          Join thousands of satisfied members enjoying exclusive discounts and premium lifestyle perks every single day.
         </StatsSectionDescription>
         <StatsGrid>
           {stats.map((stat, index) => (
