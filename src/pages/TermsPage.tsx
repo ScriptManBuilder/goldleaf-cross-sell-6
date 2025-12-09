@@ -72,14 +72,13 @@ const TermsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Payment Terms</LegalSectionTitle>
             <LegalParagraph>
-              Our VIP membership is provided on a subscription basis at $9.99 per month or $99 per year. 
-              Payment terms include:
+              All products and services offered on this website are sold as a one-time purchase.
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Membership fees are charged according to your selected plan (monthly or annual)</LegalListItem>
+              <LegalListItem>Payments are charged once at the time of purchase</LegalListItem>
+              <LegalListItem>No recurring or automatic billing will occur</LegalListItem>
+              <LegalListItem>You will not be enrolled in a subscription</LegalListItem>
               <LegalListItem>Payments are processed through secure third-party payment processors</LegalListItem>
-              <LegalListItem>Subscription fees are billed in advance on a recurring basis</LegalListItem>
-              <LegalListItem>Annual memberships receive a 17% discount compared to monthly billing</LegalListItem>
               <LegalListItem>All fees are non-refundable except as required by law or stated in our Refund Policy</LegalListItem>
             </LegalList>
           </LegalSection>
